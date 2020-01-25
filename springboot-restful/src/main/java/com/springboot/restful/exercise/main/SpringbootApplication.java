@@ -1,9 +1,9 @@
-package com.springboot.restfull.exercise.main;
+package com.springboot.restful.exercise.main;
 
-import com.springboot.restfull.exercise.controller.RestServiceController;
-import com.springboot.restfull.exercise.dao.AssociationRepository;
-import com.springboot.restfull.exercise.dao.DatabaseConfiguration;
-import com.springboot.restfull.exercise.model.Association;
+import com.springboot.restful.exercise.controller.RestServiceController;
+import com.springboot.restful.exercise.dao.AssociationRepository;
+import com.springboot.restful.exercise.dao.DatabaseConfiguration;
+import com.springboot.restful.exercise.model.Association;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
