@@ -1,11 +1,12 @@
-package src.main.test.com.springboot.restful.exercise.controller;
+package com.springboot.restful.exercise.controller;
 
 import java.util.List;
+
+import com.springboot.restful.exercise.ApplicationTests;
 import com.springboot.restful.exercise.dao.AssociationRepository;
 import com.springboot.restful.exercise.model.Association;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import src.main.test.com.springboot.restful.exercise.ApplicationTests;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -34,5 +35,6 @@ public class AssociationControllerTest extends ApplicationTests {
 
     	List<Association> l = repository.findAll();
         assertEquals(4, l.size());
+        System.out.println("----- listAssociationsTest ------");
     }
 }

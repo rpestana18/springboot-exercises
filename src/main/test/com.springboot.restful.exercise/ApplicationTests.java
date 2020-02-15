@@ -1,6 +1,5 @@
-package src.main.test.com.springboot.restful.exercise;
+package com.springboot.restful.exercise;
 
-import com.springboot.restful.exercise.main.SpringbootApplication;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;
